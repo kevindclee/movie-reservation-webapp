@@ -35,7 +35,7 @@
 - :ticket:Ticket : 예매티켓, 좌석, 상영관, 영화, 유저 정보 다 가지고 있음
   - :id:id : 티켓 id 값 (한 좌석당 한 티켓이 존재하므로 좌석 id값과 동일)
   - :date:timeStamp : 티켓 발행 시간 및 날짜
-  - :clipboard:Seat : 해당 티켓의 좌석 정보
+  - :seat:Seat : 해당 티켓의 좌석 정보
   - :smile:User : 해당 티켓의 유저 정보
 
 ## :heavy_check_mark:요구사항
