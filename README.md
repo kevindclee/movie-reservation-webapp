@@ -13,7 +13,7 @@
 - :man:김성훈 : 회원가입 / 로그인 기능 백엔드 구현
 
 ## :fire:도메인 용어 정의
-- :tv:Movie : 기본적인 영화정보
+- :clapper:Movie : 기본적인 영화정보
   - :id:id : 영화 id값
   - :name_badge:name : 영화명
   - :dollar:price : 영화가격
@@ -36,7 +36,7 @@
   - :id:id : 티켓 id 값 (한 좌석당 한 티켓이 존재하므로 좌석 id값과 동일)
   - :date:timeStamp : 티켓 발행 시간 및 날짜
   - :clipboard:Seat : 해당 티켓의 좌석 정보
-  - :eyes:User : 해당 티켓의 유저 정보
+  - :smile:User : 해당 티켓의 유저 정보
 
 ## :heavy_check_mark:요구사항
 <p>
