@@ -28,7 +28,7 @@
   - :black_circle:name : 좌석명
   - :black_circle:auditorium : 해당 좌석이 위치한 상영관
 
-- smile:User : 기본적인 유저정보
+- :smile:User : 기본적인 유저정보
 	- :black_circle:id : 유저 아이디
   - :black_circle:password : 유저 비밀번호
 
