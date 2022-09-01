@@ -48,7 +48,7 @@
 
 ## :interrobang:트러블슈팅(에러 내역, 어떻게 해결했는지)
 :x:문제 : User 객체 String Id Column Primary key 설정시 테이블 생성 불가 문제<br>
-:o:해결 : Id Column을 String으로 선언시 최대 길이 255로 설정되는데 최대길이가 길면 Primary key 설정 불가, 초기 길이를 100으로 설정해주면서 문제해결
+:o:해결 : Column을 String으로 선언시 default length 255, length가 길면 PK 설정 불가, @Column(length = 100)으로 문제 해결
 
 
 ## :rainbow:느낀점
