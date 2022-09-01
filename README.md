@@ -14,29 +14,29 @@
 
 ## :fire:도메인 용어 정의
 - :tv:Movie : 기본적인 영화정보
-	- :black_circle:id : 영화 id값
-  - :black_circle:name : 영화명
-  - :black_circle:price : 영화가격
+  - :id:id : 영화 id값
+  - :name_badge:name : 영화명
+  - :dollar:price : 영화가격
 
 - :cinema:Auditorium : 상영관 (영화관 1관, 2관, ...) 상영관 및 영화에 관한 정보 가지고 있음
-	- :black_circle:id : 상영관 id값
-  - :black_circle:Movie : 해당 상영관에서 상영하는 영화
-  - :black_circle:maxSeatCount : 최대 좌석수
+  - :id:id : 상영관 id값
+  - :clapper:Movie : 해당 상영관에서 상영하는 영화
+  - :ballot_box_with_check:maxSeatCount : 최대 좌석수
 
 - :seat:Seat : 좌석 (좌석 A1, A2, B1, ...) 좌석, 상영관, 영화에 대한 정보를 가지고 있음
-	- :black_circle:id : 좌석 id값
-  - :black_circle:name : 좌석명
-  - :black_circle:auditorium : 해당 좌석이 위치한 상영관
+  - :id:id : 좌석 id값
+  - :name_badge:name : 좌석명
+  - :cinema:auditorium : 해당 좌석이 위치한 상영관
 
 - :smile:User : 기본적인 유저정보
-	- :black_circle:id : 유저 아이디
-  - :black_circle:password : 유저 비밀번호
+  - :id:id : 유저 아이디
+  - :no_entry_sign:password : 유저 비밀번호
 
 - :ticket:Ticket : 예매티켓, 좌석, 상영관, 영화, 유저 정보 다 가지고 있음
-	- :black_circle:id : 티켓 id 값 (한 좌석당 한 티켓이 존재하므로 좌석 id값과 동일)
-  - :black_circle:timeStamp : 티켓 발행 시간 및 날짜
-  - :black_circle:Seat : 해당 티켓의 좌석 정보
-  - :black_circle:User : 해당 티켓의 유저 정보
+  - :id:id : 티켓 id 값 (한 좌석당 한 티켓이 존재하므로 좌석 id값과 동일)
+  - :date:timeStamp : 티켓 발행 시간 및 날짜
+  - :clipboard:Seat : 해당 티켓의 좌석 정보
+  - :eyes:User : 해당 티켓의 유저 정보
 
 ## :heavy_check_mark:요구사항
 
