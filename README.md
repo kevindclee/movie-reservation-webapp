@@ -54,6 +54,7 @@
 </p>
 
 초기 DB 데이터 추가를 위해 src/main/webapp/sql/table.sql 파일에서 sql 문들을 복사하여 MySQL 8.0 Command Line Client 에 붙여넣어 sql 문들을 실행해 주세요.
+
 ![MySQL 8.0 Command Line Client Screenshot](/images/movie-sql1.png "MySQL Screenshot")
 
 ## :pencil:ERD
