@@ -1,0 +1,17 @@
+.input-box{
+	display: flex;
+	position: relative;
+	margin: 10px 0;
+}
+
+.input-box > input{
+	background : transparent;
+	border: 1px solid #ccc;
+	padding: 20px 0px 5px 0px;
+	font-size : 14pt;
+	width: 100%;
+}
+
+input::placeholder{
+	color: transparent;
+}

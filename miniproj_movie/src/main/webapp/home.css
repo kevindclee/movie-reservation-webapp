@@ -1,0 +1,8 @@
+*{
+	font-family: Oswald;
+}
+
+.site-head{
+	display: flex;
+	font-size : 10px;
+}
