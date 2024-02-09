@@ -1,6 +1,6 @@
 # :movie_camera:movie-reservation-webapp
 Movie booking web application built using <img src="https://img.shields.io/badge/JPA(Java%20Persistence%20API)-white?logo=spring">, <img src="https://img.shields.io/badge/Spring%20Framework-white?logo=spring">, and <img src="https://img.shields.io/badge/MySQL-white?logo=mysql"> <br/>
-This project was built under alternative username `@ldc-bootcamp01` during the En-core Playdata bootcamp.
+This project was built under alternative username @ldc-bootcamp01 during the En-core Playdata bootcamp.
 
 ## Overview
 This Movie booking web application is a website that assists in movie reservations. You can:
