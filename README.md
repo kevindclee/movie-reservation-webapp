@@ -35,7 +35,7 @@ This Movie booking web application is a website that assists in movie reservatio
 
 ## Requirements
 
-To add initial DB data, copy the SQL statements from the src/main/webapp/sql/table.sql file and paste them into MySQL 8.0 Command Line Client and execute the SQL statements.
+To add initial DB data, copy the SQL statements from the `src/main/webapp/sql/table.sql` file and paste them into MySQL 8.0 Command Line Client and execute the SQL statements.
 
 ![MySQL 8.0 Command Line Client Screenshot](/images/movie-sql1.png "MySQL Screenshot")
 
